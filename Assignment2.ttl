@@ -6,4 +6,4 @@
     foaf:gender "female" ;
     foaf:title "student" ;
     foaf:topic_interest "sailing" ;
-    foaf:knows "https://juliettevis.github.io", "https://ivketsgit.github.io/IanVanKets.github.io" .
+    foaf:knows <https://juliettevis.github.io>, <https://ivketsgit.github.io> .
