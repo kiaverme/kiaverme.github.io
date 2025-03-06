@@ -1,0 +1,25 @@
+{
+    "@context": {
+      "Person": "http://xmlns.com/foaf/0.1/Person",
+      "name": "http://xmlns.com/foaf/0.1/name",
+      "age": "http://xmlns.com/foaf/0.1/age",
+      "gender": "http://xmlns.com/foaf/0.1/gender",
+      "title": "http://xmlns.com/foaf/0.1/title",
+      "topic_interest": "http://xmlns.com/foaf/0.1/topic_interest",
+      "knows": {
+        "@id": "http://xmlns.com/foaf/0.1/knows",
+        "@type": "@id"
+      }
+    },
+    "@id": "https://example.org/#me",
+    "@type": "Person",
+    "name": "Kiara Vermeersch",
+    "age": 22,
+    "gender": "female",
+    "title": "student",
+    "topic_interest": "sailing",
+    "knows": [
+        "https://example.org/Juliette",
+        "https://example.org/Ian"
+      ]
+  }
