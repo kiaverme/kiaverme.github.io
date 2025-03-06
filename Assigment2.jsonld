@@ -11,7 +11,7 @@
         "@type": "@id"
       }
     },
-    "@id": "https://example.org/#me",
+    "@id": "https://kiaverme.github.io",
     "@type": "Person",
     "name": "Kiara Vermeersch",
     "age": 22,
@@ -19,7 +19,7 @@
     "title": "student",
     "topic_interest": "sailing",
     "knows": [
-        "https://example.org/Juliette",
-        "https://example.org/Ian"
+        "https://juliettevis.github.io",
+        "https://ivketsgit.github.io/IanVanKets.github.io"
       ]
   }

@@ -1,10 +1,9 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ex: <https://example.org/> .
 
-<https://example.org/#me> a foaf:Person ;
+<https://kiaverme.github.io> a foaf:Person ;
     foaf:name "Kiara Vermeersch" ;
     foaf:age 22 ;
     foaf:gender "female" ;
     foaf:title "student" ;
     foaf:topic_interest "sailing" ;
-    foaf:knows ex:Juliette, ex:Ian .
+    foaf:knows "https://juliettevis.github.io", "https://ivketsgit.github.io/IanVanKets.github.io" .
