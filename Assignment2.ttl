@@ -1,5 +1,6 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://kiaverme.github.io/Assignment2.ttl#me> a foaf:Person ;
     foaf:name "Kiara Vermeersch"^^xsd:string;
