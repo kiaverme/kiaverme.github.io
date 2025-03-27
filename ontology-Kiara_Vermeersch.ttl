@@ -1,0 +1,36 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix kiavermeontology: <https://kiaverme.github.io/ontology-Kiara_Vermeersch/> .
+
+kiavermeontology:Photo a rdfs:Class ;
+    rdfs:subClassOf foaf:Image .
+
+kiavermeontology:Creator a owl:Class ;
+    rdfs:subClassOf foaf:Person .
+
+kiavermeontology:title a rdf:Property ;
+    rdfs:domain kiavermeontology:Photo ;
+    rdfs:range rdfs:Literal .
+
+kiavermeontology:photoCreator a rdf:Property ;
+    rdfs:domain kiavermeontology:Photo ;
+    rdfs:range kiavermeontology:Creator . 
+
+kiavermeontology:photoDepicts a rdf:Property ;
+    rdfs:domain kiavermeontology:Photo ;
+    rdfs:range foaf:Person ;
+    rdfs:subPropertyOf foaf:depicts .
+
+kiavermeontology:personName a rdf:Property ;
+    rdfs:domain foaf:Person ;
+    rdfs:range rdfs:Literal ;
+    owl:equivalentProperty foaf:name .
+
+kiavermeontology:location a rdf:Property ;
+    rdfs:domain kiavermeontology:Photo ;
+    rdfs:range rdfs:Literal .
+
+kiavermeontology:description a rdf:Property ; 
+    rdfs:domain kiavermeontology:Photo ;
+    rdfs:range rdfs:Literal .
